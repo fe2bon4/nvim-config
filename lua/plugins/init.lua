@@ -94,32 +94,12 @@ local default_plugins = {
     end,
   },
 
-  -- {
-  --   "saghen/blink.cmp",
-  --   dependencies = "rafamadriz/friendly-snippets",
-  --   event = "LspAttach",
-  --   version = "*",
-  --   opts = {
-  --     keymap = { preset = "default" },
-  --     appearance = {
-  --       use_nvim_cmp_as_default = true,
-  --       nerd_font_variant = "mono",
-  --     },
-  --     signature = { enabled = true },
-  --   },
-  --   opts_extend = { "sources.default" },
-  -- },
-  --
   {
     "github/copilot.vim",
     lazy = false,
   },
   {
     "prettier/vim-prettier",
-    lazy = false,
-  },
-  {
-    "wakatime/vim-wakatime",
     lazy = false,
   },
   -- lsp stuff
